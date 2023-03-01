@@ -1,0 +1,17 @@
+{
+  "name": "cartHello2",
+  "blockId": "ncfNo7CTUWSwe3te_87Wy",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/devthalal/cartHello2",
+    "ssh": "git@github.com:devthalal/cartHello2.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ]
+}
